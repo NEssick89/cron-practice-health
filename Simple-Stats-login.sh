@@ -3,6 +3,8 @@
 # Displays system health from simple_stats.log
 echo >> ~/.bashrc
 echo '# Display health check log at login' >> ~/.bashrc
+echo 'echo' >> ~/.bashrc
+echo "echo 'System Metrics:'" >> ~/.bashrc
 echo 'cat /var/log/simple_stats.log' >> ~/.bashrc
 
 # Displays logged in users
