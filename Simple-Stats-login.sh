@@ -7,6 +7,13 @@ echo 'echo' >> ~/.bashrc
 echo "echo 'System Metrics:'" >> ~/.bashrc
 echo 'cat /var/log/simple_stats.log' >> ~/.bashrc
 
+# Display active process
+echo >> ~/.bashrc
+echo '# Display active process' >> ~/.bashrc
+echo 'echo' >> ~/.bashrc
+echo "echo 'Active Process'" >> ~/.bashrc
+echo 'ps -eo pid= | wc -l' >> ~/.bashrc
+
 # Displays logged in users
 echo >> ~/.bashrc
 echo '# Display active users' >> ~/.bashrc
